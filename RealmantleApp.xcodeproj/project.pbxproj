@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F42F8B1E1E13F46E0021E7CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F42F8B1D1E13F46E0021E7CB /* main.m */; };
+		F42F8B211E13F46E0021E7CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F42F8B201E13F46E0021E7CB /* AppDelegate.m */; };
+		F42F8B241E13F46E0021E7CB /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F42F8B231E13F46E0021E7CB /* MasterViewController.m */; };
+		F42F8B271E13F46E0021E7CB /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F42F8B261E13F46E0021E7CB /* DetailViewController.m */; };
+		F42F8B2A1E13F46E0021E7CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F42F8B281E13F46E0021E7CB /* Main.storyboard */; };
+		F42F8B2C1E13F46E0021E7CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F42F8B2B1E13F46E0021E7CB /* Assets.xcassets */; };
+		F42F8B2F1E13F46E0021E7CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F42F8B2D1E13F46E0021E7CB /* LaunchScreen.storyboard */; };
+		F42F8B3A1E13F46F0021E7CB /* RealmantleAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F42F8B391E13F46F0021E7CB /* RealmantleAppTests.m */; };
+		F42F8B451E13F46F0021E7CB /* RealmantleAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F42F8B441E13F46F0021E7CB /* RealmantleAppUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F42F8B361E13F46F0021E7CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F42F8B111E13F46E0021E7CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F42F8B181E13F46E0021E7CB;
+			remoteInfo = RealmantleApp;
+		};
+		F42F8B411E13F46F0021E7CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F42F8B111E13F46E0021E7CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F42F8B181E13F46E0021E7CB;
+			remoteInfo = RealmantleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F42F8B191E13F46E0021E7CB /* RealmantleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmantleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F42F8B1D1E13F46E0021E7CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F42F8B1F1E13F46E0021E7CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F42F8B201E13F46E0021E7CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F42F8B221E13F46E0021E7CB /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		F42F8B231E13F46E0021E7CB /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		F42F8B251E13F46E0021E7CB /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		F42F8B261E13F46E0021E7CB /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		F42F8B291E13F46E0021E7CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F42F8B2B1E13F46E0021E7CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F42F8B2E1E13F46E0021E7CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F42F8B301E13F46E0021E7CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F42F8B351E13F46F0021E7CB /* RealmantleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealmantleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F42F8B391E13F46F0021E7CB /* RealmantleAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealmantleAppTests.m; sourceTree = "<group>"; };
+		F42F8B3B1E13F46F0021E7CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F42F8B401E13F46F0021E7CB /* RealmantleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealmantleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F42F8B441E13F46F0021E7CB /* RealmantleAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealmantleAppUITests.m; sourceTree = "<group>"; };
+		F42F8B461E13F46F0021E7CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F42F8B161E13F46E0021E7CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42F8B321E13F46F0021E7CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42F8B3D1E13F46F0021E7CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F42F8B101E13F46E0021E7CB = {
+			isa = PBXGroup;
+			children = (
+				F42F8B1B1E13F46E0021E7CB /* RealmantleApp */,
+				F42F8B381E13F46F0021E7CB /* RealmantleAppTests */,
+				F42F8B431E13F46F0021E7CB /* RealmantleAppUITests */,
+				F42F8B1A1E13F46E0021E7CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F42F8B1A1E13F46E0021E7CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F42F8B191E13F46E0021E7CB /* RealmantleApp.app */,
+				F42F8B351E13F46F0021E7CB /* RealmantleAppTests.xctest */,
+				F42F8B401E13F46F0021E7CB /* RealmantleAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F42F8B1B1E13F46E0021E7CB /* RealmantleApp */ = {
+			isa = PBXGroup;
+			children = (
+				F42F8B1F1E13F46E0021E7CB /* AppDelegate.h */,
+				F42F8B201E13F46E0021E7CB /* AppDelegate.m */,
+				F42F8B221E13F46E0021E7CB /* MasterViewController.h */,
+				F42F8B231E13F46E0021E7CB /* MasterViewController.m */,
+				F42F8B251E13F46E0021E7CB /* DetailViewController.h */,
+				F42F8B261E13F46E0021E7CB /* DetailViewController.m */,
+				F42F8B281E13F46E0021E7CB /* Main.storyboard */,
+				F42F8B2B1E13F46E0021E7CB /* Assets.xcassets */,
+				F42F8B2D1E13F46E0021E7CB /* LaunchScreen.storyboard */,
+				F42F8B301E13F46E0021E7CB /* Info.plist */,
+				F42F8B1C1E13F46E0021E7CB /* Supporting Files */,
+			);
+			path = RealmantleApp;
+			sourceTree = "<group>";
+		};
+		F42F8B1C1E13F46E0021E7CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F42F8B1D1E13F46E0021E7CB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F42F8B381E13F46F0021E7CB /* RealmantleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F42F8B391E13F46F0021E7CB /* RealmantleAppTests.m */,
+				F42F8B3B1E13F46F0021E7CB /* Info.plist */,
+			);
+			path = RealmantleAppTests;
+			sourceTree = "<group>";
+		};
+		F42F8B431E13F46F0021E7CB /* RealmantleAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F42F8B441E13F46F0021E7CB /* RealmantleAppUITests.m */,
+				F42F8B461E13F46F0021E7CB /* Info.plist */,
+			);
+			path = RealmantleAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F42F8B181E13F46E0021E7CB /* RealmantleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F42F8B491E13F46F0021E7CB /* Build configuration list for PBXNativeTarget "RealmantleApp" */;
+			buildPhases = (
+				F42F8B151E13F46E0021E7CB /* Sources */,
+				F42F8B161E13F46E0021E7CB /* Frameworks */,
+				F42F8B171E13F46E0021E7CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealmantleApp;
+			productName = RealmantleApp;
+			productReference = F42F8B191E13F46E0021E7CB /* RealmantleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F42F8B341E13F46F0021E7CB /* RealmantleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F42F8B4C1E13F46F0021E7CB /* Build configuration list for PBXNativeTarget "RealmantleAppTests" */;
+			buildPhases = (
+				F42F8B311E13F46F0021E7CB /* Sources */,
+				F42F8B321E13F46F0021E7CB /* Frameworks */,
+				F42F8B331E13F46F0021E7CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F42F8B371E13F46F0021E7CB /* PBXTargetDependency */,
+			);
+			name = RealmantleAppTests;
+			productName = RealmantleAppTests;
+			productReference = F42F8B351E13F46F0021E7CB /* RealmantleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F42F8B3F1E13F46F0021E7CB /* RealmantleAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F42F8B4F1E13F46F0021E7CB /* Build configuration list for PBXNativeTarget "RealmantleAppUITests" */;
+			buildPhases = (
+				F42F8B3C1E13F46F0021E7CB /* Sources */,
+				F42F8B3D1E13F46F0021E7CB /* Frameworks */,
+				F42F8B3E1E13F46F0021E7CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F42F8B421E13F46F0021E7CB /* PBXTargetDependency */,
+			);
+			name = RealmantleAppUITests;
+			productName = RealmantleAppUITests;
+			productReference = F42F8B401E13F46F0021E7CB /* RealmantleAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F42F8B111E13F46E0021E7CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ZupBraz;
+				TargetAttributes = {
+					F42F8B181E13F46E0021E7CB = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = DGHJ3A5DWH;
+						ProvisioningStyle = Automatic;
+					};
+					F42F8B341E13F46F0021E7CB = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = DGHJ3A5DWH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F42F8B181E13F46E0021E7CB;
+					};
+					F42F8B3F1E13F46F0021E7CB = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = DGHJ3A5DWH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F42F8B181E13F46E0021E7CB;
+					};
+				};
+			};
+			buildConfigurationList = F42F8B141E13F46E0021E7CB /* Build configuration list for PBXProject "RealmantleApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F42F8B101E13F46E0021E7CB;
+			productRefGroup = F42F8B1A1E13F46E0021E7CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F42F8B181E13F46E0021E7CB /* RealmantleApp */,
+				F42F8B341E13F46F0021E7CB /* RealmantleAppTests */,
+				F42F8B3F1E13F46F0021E7CB /* RealmantleAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F42F8B171E13F46E0021E7CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42F8B2F1E13F46E0021E7CB /* LaunchScreen.storyboard in Resources */,
+				F42F8B2C1E13F46E0021E7CB /* Assets.xcassets in Resources */,
+				F42F8B2A1E13F46E0021E7CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42F8B331E13F46F0021E7CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42F8B3E1E13F46F0021E7CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F42F8B151E13F46E0021E7CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42F8B211E13F46E0021E7CB /* AppDelegate.m in Sources */,
+				F42F8B241E13F46E0021E7CB /* MasterViewController.m in Sources */,
+				F42F8B1E1E13F46E0021E7CB /* main.m in Sources */,
+				F42F8B271E13F46E0021E7CB /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42F8B311E13F46F0021E7CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42F8B3A1E13F46F0021E7CB /* RealmantleAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42F8B3C1E13F46F0021E7CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42F8B451E13F46F0021E7CB /* RealmantleAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F42F8B371E13F46F0021E7CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F42F8B181E13F46E0021E7CB /* RealmantleApp */;
+			targetProxy = F42F8B361E13F46F0021E7CB /* PBXContainerItemProxy */;
+		};
+		F42F8B421E13F46F0021E7CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F42F8B181E13F46E0021E7CB /* RealmantleApp */;
+			targetProxy = F42F8B411E13F46F0021E7CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F42F8B281E13F46E0021E7CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F42F8B291E13F46E0021E7CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F42F8B2D1E13F46E0021E7CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F42F8B2E1E13F46E0021E7CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F42F8B471E13F46F0021E7CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F42F8B481E13F46F0021E7CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F42F8B4A1E13F46F0021E7CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DGHJ3A5DWH;
+				INFOPLIST_FILE = RealmantleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZupBraz.RealmantleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F42F8B4B1E13F46F0021E7CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DGHJ3A5DWH;
+				INFOPLIST_FILE = RealmantleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZupBraz.RealmantleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F42F8B4D1E13F46F0021E7CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DGHJ3A5DWH;
+				INFOPLIST_FILE = RealmantleAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZupBraz.RealmantleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealmantleApp.app/RealmantleApp";
+			};
+			name = Debug;
+		};
+		F42F8B4E1E13F46F0021E7CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DGHJ3A5DWH;
+				INFOPLIST_FILE = RealmantleAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZupBraz.RealmantleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealmantleApp.app/RealmantleApp";
+			};
+			name = Release;
+		};
+		F42F8B501E13F46F0021E7CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = DGHJ3A5DWH;
+				INFOPLIST_FILE = RealmantleAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZupBraz.RealmantleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RealmantleApp;
+			};
+			name = Debug;
+		};
+		F42F8B511E13F46F0021E7CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = DGHJ3A5DWH;
+				INFOPLIST_FILE = RealmantleAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZupBraz.RealmantleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RealmantleApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F42F8B141E13F46E0021E7CB /* Build configuration list for PBXProject "RealmantleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F42F8B471E13F46F0021E7CB /* Debug */,
+				F42F8B481E13F46F0021E7CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F42F8B491E13F46F0021E7CB /* Build configuration list for PBXNativeTarget "RealmantleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F42F8B4A1E13F46F0021E7CB /* Debug */,
+				F42F8B4B1E13F46F0021E7CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F42F8B4C1E13F46F0021E7CB /* Build configuration list for PBXNativeTarget "RealmantleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F42F8B4D1E13F46F0021E7CB /* Debug */,
+				F42F8B4E1E13F46F0021E7CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F42F8B4F1E13F46F0021E7CB /* Build configuration list for PBXNativeTarget "RealmantleAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F42F8B501E13F46F0021E7CB /* Debug */,
+				F42F8B511E13F46F0021E7CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F42F8B111E13F46E0021E7CB /* Project object */;
+}
